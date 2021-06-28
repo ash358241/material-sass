@@ -1,0 +1,81 @@
+.banner{ 
+    min-height: 100vh;
+    .bannerItem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+
+        .iconRating{
+            display: flex;
+            align-items: center;
+
+            .icons{
+                .icon{
+                    color: goldenrod;
+                }
+            }
+
+            .ratingText{
+                margin-left: 10px;
+            }
+        }
+
+        .bannerBtn > Button{
+            margin-right: 10px;
+        }
+
+        .bannerOffer{
+            .firstChild{
+                margin-right: 10px;
+            }
+        }
+
+        .bannerInfo{
+            .bannerText{
+                text-align: justify;
+            }
+        }
+
+        .bannerOffer{
+            display: flex;
+        }
+
+        .bannerImg img{
+            width: 60%;
+            float: right;
+        }
+}
+}
+
+
+
+@media (max-width: 992px){
+    .banner{
+        clear: both;
+
+        .bannerItem{
+            flex-wrap: wrap;
+    
+            .bannerImg img{
+                float: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 668px){
+    .banner{
+        clear: both;
+
+        .bannerItem{
+            flex-wrap: wrap;
+    
+            .bannerImg img{
+                width: 100%;
+                float: none;
+            }
+        }
+    }
+}
