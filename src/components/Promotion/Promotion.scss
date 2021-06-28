@@ -19,11 +19,12 @@
         .promoText{
             width: 100%;
             // color: white;
-            padding-left: 20px;
+            padding-left: 80px;
         }
 
         .promoImg img{
-            width: 60%;
+            width: 85%;
+            height: 60vh;
             float: right;
         }
     }
@@ -49,6 +50,10 @@
 
         .promotionTrial{
             flex-wrap: wrap;
+
+            .promoText{
+                padding: 10px;
+            }
     
             .promoImg img{
                 width: 100%;
