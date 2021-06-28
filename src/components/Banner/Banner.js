@@ -5,17 +5,7 @@ import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import bannerImg from '../../images/hero-Illustration.png';
 
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-      '& > *': {
-        margin: theme.spacing(1),
-      },
-    },
-  }));
-
 const Banner = () => {
-    const classes = useStyles();
     const preventDefault = (event) => event.preventDefault();
 
     return (
@@ -48,8 +38,8 @@ const Banner = () => {
                     </Link>
                     </div>
                     <div className="bannerOffer">
-                        <p className="firstChild"><i class="fas fa-check"></i> No credit card required</p>
-                        <p><i class="fas fa-check"></i> 10 free templates</p>
+                        <p className="firstChild"><i style={{color: 'green'}} class="fas fa-check"></i> No credit card required</p>
+                        <p><i style={{color: 'green'}} class="fas fa-check"></i> 10 free templates</p>
                     </div>
             </div>
             <div className="bannerImg">

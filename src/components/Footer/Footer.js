@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.scss';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
             <div className="col1">
                 <h4>Fiber</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ullam? Sapiente dolorem nulla ducimus officiis saepe illo, iste veniam maiores?</p>
-                <h5>Made With </h5>
+                <h5>Made With <i style={{color: 'red'}} class="fas fa-heart"></i></h5>
             </div>
             <div className="col2">
                 <h4>Sitemap</h4>

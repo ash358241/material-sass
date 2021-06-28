@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
       flexGrow: 1,
     },
     menuButton: {
-      marginRight: theme.spacing(2),
+      // marginRight: theme.spacing(2),
       [theme.breakpoints.up("lg")]:{
         display: 'none',
     }
@@ -71,7 +71,7 @@ const Header = () => {
                         <MenuItem onClick={handleClose}>Features</MenuItem>
                         <MenuItem onClick={handleClose}>Sign In</MenuItem>
                     </Menu>
-    </div>
+                    </div>
                     </IconButton>
              </Toolbar>
                 </div>
