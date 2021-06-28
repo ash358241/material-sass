@@ -1,0 +1,23 @@
+.footer{
+    background-color: rgba(211, 211, 211, 0.849);
+
+    .row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    }
+}
+
+@media (max-width: 668px){
+    .footer{
+    .row{
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    width: 90%;
+    margin: 0 auto;
+    }
+    }
+}
