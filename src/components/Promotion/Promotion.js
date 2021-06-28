@@ -26,6 +26,10 @@ const useStyles = makeStyles({
     btn: {
         padding: '20px',
     },
+    iconSize: {
+        transform: 'scale(1.8)',
+        marginBottom: '10px',
+    }
   });
 
 const Promotion = () => {
@@ -41,7 +45,7 @@ const Promotion = () => {
             <div className="promotionContent">
             <Card className={classes.root} variant="outlined">
         <CardContent>
-            <AvTimerIcon></AvTimerIcon>
+            <AvTimerIcon className={classes.iconSize}></AvTimerIcon>
             <Typography variant="p" component="h4">
             Build in minute
             </Typography>
@@ -56,7 +60,7 @@ const Promotion = () => {
 
         <Card className={classes.root} variant="outlined">
         <CardContent>
-        <CodeIcon></CodeIcon>
+        <CodeIcon className={classes.iconSize}></CodeIcon>
             <Typography variant="p" component="h4">
             Add custom CSS
             </Typography>
@@ -71,7 +75,7 @@ const Promotion = () => {
 
         <Card className={classes.root} variant="outlined">
         <CardContent>
-            <DevicesIcon></DevicesIcon>
+            <DevicesIcon className={classes.iconSize}></DevicesIcon>
             <Typography variant="p" component="h4">
             Responsive
             </Typography>

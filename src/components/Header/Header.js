@@ -54,7 +54,7 @@ const Header = () => {
                     <Button variant="primary" color="primary">Community</Button>
                     <Button variant="primary" color="primary">Pricing</Button>
                     <Button variant="primary" color="primary">Features</Button>
-                    <Button variant="primary" color="primary">Sign In</Button>
+                    <Button variant="contained" color="primary">Sign In</Button>
                     </div>
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                     <div>
